@@ -2,6 +2,16 @@
 
 A lightweight, Python-based web crawler designed to recursively scan and analyze websites for data extraction, link discovery, and basic site structure mapping. Ideal for cybersecurity assessments, educational purposes, or as a foundational component for more advanced data mining tools.
 
+# List of External and Third Party Libraries 
+
+✅ Standard Library
+	•	urllib.parse – for parsing and joining URLs
+
+📦 Third-Party Libraries (must be installed via pip)
+	•	requests – for sending HTTP requests
+	•	beautifulsoup4 – for parsing and navigating HTML
+
+
 ## 🔍 Features
 
 - Recursive URL crawling with depth control
@@ -26,13 +36,12 @@ git clone https://github.com/DanielVihorev/Crawler.git
 cd Crawler
 
 
-	2.	(Optional) Create a virtual environment:
+2.(Optional) Create a virtual environment:
 
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-
-	3.	Install requirements:
+3.Install requirements:
 This project uses only Python standard libraries. If future dependencies are added, use:
 
 pip install -r requirements.txt
@@ -66,6 +75,10 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 👨‍💻 Author
 
 Daniel Vihorev
+Cybersecurity enthusiast & Python developer
+GitHub Profile
+
+Ilay Zendani
 Cybersecurity enthusiast & Python developer
 GitHub Profile
 
